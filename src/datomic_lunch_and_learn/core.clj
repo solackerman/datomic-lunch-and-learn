@@ -70,11 +70,6 @@
                              :person/email "andy.brown@cenx.com"
                              :person/title :developer}]))
 
-;; EAVT
-;; AEVT
-;; VAET
-;; AVET
-
 (def t1 (java.util.Date.))
 
 (def db-t1 (d/db db-conn))
@@ -172,6 +167,11 @@
            [?m :person/name ?m1]
            [?p :person/name ?p1]]
          (d/db db-conn) "sol"))
+
+;; EAVT
+;; AEVT
+;; VAET
+;; AVET
 
 ;; Entities
 
